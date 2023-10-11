@@ -1,0 +1,47 @@
+#contact-section {
+  margin-top: 10rem;
+  text-align: center;
+  min-height: 80vh;
+}
+
+#contact-section h1 {
+  font-size: 4rem;
+}
+
+.contact-icon {
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 700ms;
+}
+
+.mail-icon-container,
+.phone-icon-container,
+.linkedin-icon-container,
+.github-icon-container {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 4rem;
+}
+
+.mail-icon-container img,
+.phone-icon-container img,
+.linkedin-icon-container img,
+.github-icon-container img {
+  width: 40%;
+  cursor: pointer;
+}
+
+.mail-icon-container p,
+.phone-icon-container p,
+.linkedin-icon-container p,
+.github-icon-container p {
+  font-size: 1.8rem;
+}
+
+.hide {
+  opacity: 0;
+}

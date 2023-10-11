@@ -1,0 +1,49 @@
+.sidebar {
+  width: 40%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  display: grid;
+  place-items: center;
+  margin-left: -100%;
+  transition: all 400ms;
+  color: white;
+}
+
+.sidenav {
+  display: flex;
+  row-gap: 10rem;
+  flex-direction: column;
+}
+
+.sidenav-link {
+  cursor: pointer;
+  font-size: 2rem;
+  list-style-type: none;
+  text-align: center;
+}
+
+.sidenav-link a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidenav-link::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 3px;
+  background-color: white;
+  transition: all 400ms;
+}
+
+.sidenav-link:hover::after {
+  width: 100%;
+}
+
+.toggle,
+.close {
+  cursor: pointer;
+}

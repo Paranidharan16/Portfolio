@@ -1,0 +1,47 @@
+#skills-section {
+  min-height: 80vh;
+  margin-top: 6rem;
+  margin-bottom: 9rem;
+}
+.skills {
+  transition: all 1s;
+}
+#skills-section h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+.skills-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.react-logo,
+.html-logo,
+.css-logo,
+.js-logo {
+  width: 12rem;
+}
+.visibility {
+  opacity: 0;
+  padding-top: 6rem;
+}
+
+.logo-visibility {
+  margin-left: -200%;
+}
+
+.html-logo {
+  transition: all 2s 500ms;
+}
+.css-logo {
+  transition: all 2s 70ms;
+}
+.js-logo {
+  transition: all 2s 900ms;
+}
+
+.react-logo {
+  transition: all 2s 1200ms;
+}

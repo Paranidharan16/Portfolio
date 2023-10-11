@@ -1,0 +1,65 @@
+header {
+  display: flex;
+  padding: 1rem 2rem;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.name-logo h1 a {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  font-size: 4rem;
+  font-family: "Arizonia", cursive;
+}
+
+.nav {
+  display: flex;
+  column-gap: 5rem;
+  font-size: 1.8rem;
+  font-family: "Orbitron", sans-serif;
+}
+
+.nav-link {
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.nav-link a {
+  font-size: 2.2rem;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 3px;
+  background-color: black;
+  transition: all 400ms;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.fixed {
+  transition: all 400ms;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: whitesmoke;
+}
+
+.toggle {
+  display: none;
+  width: 3rem;
+}
+
+.toggle img {
+  width: 100%;
+}

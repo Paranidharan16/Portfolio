@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding: 10rem;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: whitesmoke;
+}

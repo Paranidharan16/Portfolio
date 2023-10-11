@@ -1,0 +1,51 @@
+#about-section {
+  width: 80%;
+  min-height: 90vh;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 7rem;
+  margin-bottom: 20rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-intro {
+  width: 60rem;
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+.hidden {
+  display: none;
+}
+
+.opacity {
+  opacity: 0;
+}
+
+.about-job-title {
+  width: 37rem;
+  font-size: 2rem;
+  margin-top: 3rem;
+  line-height: 3rem;
+}
+.about-job-title span {
+  color: red;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+  background: -webkit-linear-gradient(#ff512f, #dd2476);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-img {
+  margin-top: -13rem;
+}
+.about-img img {
+  width: 600px;
+}
