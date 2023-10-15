@@ -1,4 +1,21 @@
 export function project() {
+  const project = document.querySelector(".project-title");
+
+  function projectObservFunction(entry) {
+    const [intersect] = entry;
+    if (intersect.isIntersecting) {
+      project.classList.remove("visibility");
+      skillObserv.unobserve(project);
+    }
+  }
+
+  const projectObserv = new IntersectionObserver(projectObservFunction, {
+    root: null,
+    threshold: 0.6,
+  });
+
+  projectObserv.observe(project);
+
   const ytc = document.querySelector(".ytc");
   const td = document.querySelector(".td");
   const fcd = document.querySelector(".fcd");
