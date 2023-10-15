@@ -4,8 +4,9 @@
   min-height: 80vh;
 }
 
-#contact-section h1 {
+.contact-title {
   font-size: 4rem;
+  transition: all 1s;
 }
 
 .contact-icon {
