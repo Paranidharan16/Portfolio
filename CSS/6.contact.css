@@ -20,7 +20,8 @@
 .mail-icon-container,
 .phone-icon-container,
 .linkedin-icon-container,
-.github-icon-container {
+.github-icon-container,
+.phone-icon-container {
   width: 30rem;
   display: flex;
   flex-direction: column;
@@ -28,19 +29,25 @@
   row-gap: 4rem;
 }
 
-.mail-icon-container img,
-.phone-icon-container img,
-.linkedin-icon-container img,
-.github-icon-container img {
-  width: 40%;
-  cursor: pointer;
+.mail-icon-container a,
+.cv-icon-container a,
+.linkedin-icon-container a,
+.github-icon-container a,
+.phone-icon-container a {
+  width: 100%;
+  cursor: default;
 }
 
-.mail-icon-container p,
-.phone-icon-container p,
-.linkedin-icon-container p,
-.github-icon-container p {
-  font-size: 1.8rem;
+.mail-icon-container img,
+.linkedin-icon-container img,
+.github-icon-container img,
+.phone-icon-container img {
+  width: 50%;
+  cursor: pointer;
+}
+.cv-icon-container img {
+  width: 28%;
+  cursor: pointer;
 }
 
 .hide {
