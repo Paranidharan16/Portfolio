@@ -53,13 +53,18 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     row-gap: 4rem;
-    margin-left: 15rem;
   }
   .mail-icon-container img,
   .phone-icon-container img,
   .linkedin-icon-container img,
   .github-icon-container img {
+    width: 10%;
+    cursor: pointer;
+  }
+
+  .cv-icon-container img {
     width: 10%;
     cursor: pointer;
   }
