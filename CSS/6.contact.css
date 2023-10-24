@@ -10,7 +10,7 @@
 }
 
 .contact-icon {
-  margin-top: 10rem;
+  margin-top: 15rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -23,10 +23,6 @@
 .github-icon-container,
 .phone-icon-container {
   width: 30rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  row-gap: 4rem;
 }
 
 .mail-icon-container a,
@@ -46,7 +42,7 @@
   cursor: pointer;
 }
 .cv-icon-container img {
-  width: 28%;
+  width: 30%;
   cursor: pointer;
 }
 
