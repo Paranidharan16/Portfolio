@@ -42,7 +42,7 @@
   }
   .contact-icon {
     flex-direction: column;
-    row-gap: 5rem;
+    row-gap: 10rem;
   }
 
   .mail-icon-container,
@@ -61,14 +61,12 @@
   .linkedin-icon-container img,
   .github-icon-container img {
     width: 10%;
-    cursor: pointer;
   }
 
   .cv-icon-container img {
-    width: 10%;
-    cursor: pointer;
+    width: 15%;
   }
-  .contact-icon p {
-    margin-left: 10rem;
+  .cv-icon-container {
+    width: 100%;
   }
 }
