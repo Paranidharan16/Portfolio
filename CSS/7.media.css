@@ -21,18 +21,18 @@
     font-size: 3rem;
   }
   .about-job-title {
-    margin-left: 10rem;
+    margin-left: 9rem;
     font-size: 1.5rem;
   }
   .about-img img {
-    width: 35rem;
+    width: 40rem;
   }
 
   .react-logo,
   .html-logo,
   .css-logo,
   .js-logo {
-    width: 8rem;
+    width: 5rem;
   }
 
   .project-project {
@@ -43,7 +43,7 @@
     row-gap: 10rem;
   }
 
-  .mail-icon-container,
+  /* .mail-icon-container,
   .phone-icon-container,
   .linkedin-icon-container,
   .github-icon-container {
@@ -53,16 +53,16 @@
     align-items: center;
     justify-content: center;
     row-gap: 4rem;
-  }
+  } */
   .mail-icon-container img,
   .phone-icon-container img,
   .linkedin-icon-container img,
   .github-icon-container img {
-    width: 10%;
+    width: 30%;
   }
 
   .cv-icon-container img {
-    width: 15%;
+    width: 18%;
   }
   .cv-icon-container {
     width: 100%;
