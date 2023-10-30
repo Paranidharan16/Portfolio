@@ -5,7 +5,7 @@ export function contact() {
     const [intersect] = entry;
     if (intersect.isIntersecting) {
       contact.classList.remove("visibility");
-      contactObserv.unobserve(project);
+      contactObserv.unobserve(contact);
     }
   }
 
