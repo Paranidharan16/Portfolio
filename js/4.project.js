@@ -5,7 +5,7 @@ export function project() {
     const [intersect] = entry;
     if (intersect.isIntersecting) {
       project.classList.remove("visibility");
-      skillObserv.unobserve(project);
+      projectObserv.unobserve(project);
     }
   }
 
