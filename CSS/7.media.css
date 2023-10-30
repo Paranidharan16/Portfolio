@@ -18,16 +18,14 @@
     overflow-y: hidden;
   }
   .about-intro {
-    font-size: 6rem;
+    font-size: 3rem;
   }
   .about-job-title {
     margin-left: 10rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .about-img img {
-    width: 50rem;
-    margin-left: 9rem;
-    margin-top: 5rem;
+    width: 35rem;
   }
 
   .react-logo,
