@@ -35,6 +35,19 @@
     width: 5rem;
   }
 
+  #about-section {
+    min-height: 80vh;
+  }
+
+  #skills-section {
+    min-height: 50vh;
+    margin-top: 6rem;
+  }
+  #project-section {
+    min-height: 80vh;
+    margin-top: 6rem;
+  }
+
   .project-project {
     grid-template-columns: 1fr;
   }
@@ -43,17 +56,6 @@
     row-gap: 10rem;
   }
 
-  /* .mail-icon-container,
-  .phone-icon-container,
-  .linkedin-icon-container,
-  .github-icon-container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    row-gap: 4rem;
-  } */
   .mail-icon-container img,
   .phone-icon-container img,
   .linkedin-icon-container img,
@@ -62,7 +64,7 @@
   }
 
   .cv-icon-container img {
-    width: 18%;
+    width: 10rem;
   }
   .cv-icon-container {
     width: 100%;
