@@ -16,19 +16,17 @@ export function contact() {
 
   contactObserv.observe(contact);
 
-  const contactSection = document.querySelector("#contact-section");
+  // const contactSection = document.querySelector("#contact-section");
   const contactIcon = document.querySelector(".contact-icon");
-
   const contactObs = new IntersectionObserver(contactFunction, {
     root: null,
-    threshold: 0.7,
+    threshold: 0.1,
   });
 
   function contactFunction(entry) {
     const [data] = entry;
-
     if (data.isIntersecting) contactIcon.classList.remove("hide");
   }
 
-  contactObs.observe(contactSection);
+  contactObs.observe(contactIcon);
 }
