@@ -2,7 +2,6 @@ export function project() {
   const project = document.querySelector(".project-title");
 
   function projectObservFunction(entry) {
-    console.log(entry);
     const [intersect] = entry;
     if (intersect.isIntersecting) {
       project.classList.remove("visibility");
